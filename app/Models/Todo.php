@@ -16,6 +16,6 @@ class Todo extends Authenticatable
      * @var array
      */
     protected $fillable = [
-        'content', 'isComplete',
+        'content'
     ];
 }
